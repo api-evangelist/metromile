@@ -1,0 +1,40 @@
+name: Metromile Plans and Pricing
+description: Metromile offers pay-per-mile auto insurance with a base monthly rate plus a per-mile charge. The consumer insurance product is now managed under Lemonade following the 2022 acquisition. The Metromile Enterprise platform (B2B claims automation SaaS) is available through direct sales engagement.
+url: https://www.metromile.com/
+plans:
+  - name: Pay-Per-Mile Personal Auto Insurance
+    description: Consumer pay-per-mile car insurance with a fixed base rate plus a per-mile usage charge tracked via the Pulse OBD telematics device.
+    type: usage-based
+    pricing:
+      base_rate_monthly: "$29+"
+      per_mile_rate: varies by driver profile, vehicle, and state
+      daily_mileage_cap: 250 miles (150 miles in New Jersey)
+    coverage_options:
+      - Liability
+      - Comprehensive
+      - Collision
+      - PIP / Medical Payments
+      - Pet Injury Protection (included with comp+collision)
+    availability: AZ, CA, IL, NJ, OR, PA, VA, WA
+    notes: >
+      Metromile consumer insurance is now offered through Lemonade following the
+      July 2022 acquisition. New Metromile-branded quotes are no longer issued;
+      existing customers continue to manage policies under Lemonade.
+  - name: Metromile Enterprise (B2B SaaS)
+    description: Cloud-based claims automation platform for property and casualty (P&C) insurance carriers. Sold via direct enterprise sales engagement.
+    type: enterprise-saas
+    pricing:
+      model: Contact sales
+      url: https://enterprise.metromile.com/
+    products:
+      - name: Report
+        description: Digital first-notice-of-loss (FNOL) and loss-reporting tool
+      - name: Replay
+        description: Virtual accident reconstruction using Pulse telematics sensor data
+      - name: Detect
+        description: Automated fraud detection and alert system for claims adjusters
+      - name: Streamline
+        description: Back-office automation and customer intelligence for claims workflows
+    integration:
+      type: REST API
+      description: Straightforward API integration enables gradual or full switchover to touchless or partial-touch automated claims workflows and payment vendor connectivity

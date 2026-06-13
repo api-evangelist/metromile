@@ -1,0 +1,21 @@
+name: Metromile Rate Limits
+description: Metromile does not publish a public API with documented rate limits. The Metromile Enterprise claims automation platform exposes REST APIs under enterprise SaaS agreements; rate limits and throttling policies are defined contractually and communicated during onboarding. Consumer telematics data collection is handled internally via the Pulse OBD device and is not exposed through a public API.
+url: https://enterprise.metromile.com/
+tiers:
+  - name: Enterprise API (B2B)
+    type: enterprise
+    rate_limits:
+      documented: false
+      notes: >
+        Rate limits for the Metromile Enterprise REST API are not publicly
+        documented. Limits are established per carrier/partner agreement.
+        Contact the enterprise sales team at enterprise.metromile.com for
+        details.
+    authentication:
+      type: undisclosed
+      notes: Authentication details for the Enterprise API are shared during
+        integration onboarding and are not publicly documented.
+notes: >
+  Metromile was acquired by Lemonade in July 2022. Consumer-facing APIs and
+  telematics endpoints are no longer offered as standalone public products.
+  All API access is mediated through enterprise partnerships.

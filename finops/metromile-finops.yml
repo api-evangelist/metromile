@@ -1,0 +1,26 @@
+name: Metromile FinOps
+description: Financial operations and cost management guidance for Metromile API and platform consumption. Metromile Enterprise is a B2B SaaS product sold through direct enterprise agreements; there are no public metered API costs. Consumer pay-per-mile insurance pricing is usage-based with a transparent per-mile charge tracked by the Pulse telematics device.
+url: https://enterprise.metromile.com/
+cost_model:
+  consumer_insurance:
+    type: usage-based
+    components:
+      - name: Base monthly rate
+        description: Fixed monthly fee covering the policy regardless of miles driven
+        starting_at: "$29/month"
+      - name: Per-mile charge
+        description: Variable charge per mile driven, tracked by Pulse OBD device
+        notes: Rate varies by state, driver profile, and vehicle; capped at 250 miles/day (150 in NJ)
+  enterprise_platform:
+    type: enterprise-contract
+    components:
+      - name: SaaS license
+        description: Annual or multi-year contract for access to the Metromile Enterprise claims automation platform (Report, Replay, Detect, Streamline)
+        pricing: Contact sales — not publicly disclosed
+      - name: API integration
+        description: REST API access included as part of the Enterprise SaaS contract; no additional per-call public pricing
+optimization_notes:
+  - Metromile consumer insurance rewards low-mileage drivers; drivers under ~10,000 miles/year typically see the greatest savings relative to traditional premiums.
+  - The daily mileage cap (250 miles; 150 in NJ) limits worst-case daily cost, providing predictability for higher-mileage days such as road trips.
+  - Enterprise buyers should negotiate SLA, API throughput, and data retention terms as part of the master agreement since no public pricing sheet exists.
+  - Following the Lemonade acquisition (July 2022), enterprise contract inquiries may be routed through Lemonade's enterprise channel.

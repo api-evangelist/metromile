@@ -1,0 +1,75 @@
+aid: metromile
+name: Metromile
+description: >
+  Metromile is a pay-per-mile auto insurance platform powered by telematics
+  and data science. Customers attach the Pulse OBD device to their vehicle
+  to track mileage; premiums consist of a base monthly rate plus a per-mile
+  charge, rewarding low-mileage drivers with significant savings. Beyond
+  consumer insurance, Metromile Enterprise offers a cloud-based REST API
+  platform for property and casualty insurers covering touchless claims
+  automation, accident reconstruction (Replay), fraud detection (Detect),
+  digital FNOL reporting (Report), and back-office workflow automation
+  (Streamline). Metromile was acquired by Lemonade in July 2022.
+type: Index
+image: https://kinlane-productions.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://raw.githubusercontent.com/api-evangelist/metromile/refs/heads/main/apis.yml
+created: 2026-06-13
+modified: 2026-06-13
+specificationVersion: "0.19"
+tags:
+  - Insurance
+  - Telematics
+  - Pay-Per-Mile
+  - Auto Insurance
+  - Claims Automation
+  - Vehicle Diagnostics
+  - Mileage Tracking
+  - InsurTech
+apis:
+  - aid: metromile:metromile-enterprise-api
+    name: Metromile Enterprise API
+    description: >
+      REST API platform for property and casualty insurance carriers enabling
+      touchless claims automation, digital first-notice-of-loss reporting,
+      telematics-based accident reconstruction, fraud detection, payment
+      automation, and back-office workflow orchestration. Integrated via
+      enterprise SaaS agreement.
+    humanURL: https://enterprise.metromile.com/platform/
+    baseURL: https://enterprise.metromile.com
+    tags:
+      - Claims Automation
+      - Telematics
+      - Fraud Detection
+      - Insurance
+      - REST API
+    properties:
+      - type: Documentation
+        url: https://enterprise.metromile.com/platform/
+      - type: Website
+        url: https://enterprise.metromile.com/
+common:
+  - type: Website
+    url: https://www.metromile.com/
+  - type: Documentation
+    url: https://enterprise.metromile.com/platform/
+  - type: GitHubOrg
+    url: https://github.com/metromile
+  - type: LinkedIn
+    url: https://www.linkedin.com/company/metromile
+  - type: Blog
+    url: https://www.metromile.com/blog/
+  - type: Pricing
+    url: https://www.metromile.com/auto-insurance/
+  - type: StatusPage
+    url: https://status.metromile.com/
+  - type: X
+    url: https://x.com/metromile
+  - type: Plans
+    url: plans/metromile-plans-pricing.yml
+  - type: RateLimits
+    url: rate-limits/metromile-rate-limits.yml
+  - type: FinOps
+    url: finops/metromile-finops.yml
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
