@@ -1,0 +1,61 @@
+{
+  "@context": "https://schema.org",
+  "@type": "Organization",
+  "name": "Metromile",
+  "description": "Metromile is a pay-per-mile auto insurance platform powered by telematics and data science. Customers attach the Pulse OBD device to their vehicle to track mileage; premiums consist of a base monthly rate plus a per-mile charge. Metromile Enterprise offers a cloud-based REST API platform for property and casualty insurers covering touchless claims automation, accident reconstruction, fraud detection, digital FNOL reporting, and back-office workflow automation. Acquired by Lemonade in July 2022.",
+  "url": "https://www.metromile.com/",
+  "sameAs": [
+    "https://enterprise.metromile.com/",
+    "https://www.linkedin.com/company/metromile",
+    "https://x.com/metromile",
+    "https://github.com/metromile"
+  ],
+  "brand": {
+    "@type": "Brand",
+    "name": "Metromile"
+  },
+  "offers": {
+    "@type": "Offer",
+    "category": "Auto Insurance",
+    "description": "Pay-per-mile auto insurance with a base monthly rate plus a per-mile charge tracked via the Metromile Pulse OBD device."
+  },
+  "hasPart": [
+    {
+      "@type": "SoftwareApplication",
+      "name": "Metromile Enterprise API",
+      "applicationCategory": "InsurTech API Platform",
+      "description": "REST API platform for property and casualty insurance carriers enabling touchless claims automation, digital first-notice-of-loss reporting, telematics-based accident reconstruction (Replay), fraud detection (Detect), and back-office workflow orchestration (Streamline).",
+      "url": "https://enterprise.metromile.com/platform/",
+      "featureList": [
+        "Touchless Claims Automation",
+        "Digital FNOL Reporting (Report)",
+        "Accident Reconstruction (Replay)",
+        "Fraud Detection (Detect)",
+        "Back-Office Workflow Automation (Streamline)",
+        "Payment Automation"
+      ]
+    },
+    {
+      "@type": "Product",
+      "name": "Metromile Pulse",
+      "description": "OBD-II telematics device that plugs into a vehicle to track mileage and driving data, enabling pay-per-mile insurance premiums.",
+      "category": "Telematics Device"
+    }
+  ],
+  "knowsAbout": [
+    "Pay-Per-Mile Insurance",
+    "Telematics",
+    "Auto Insurance",
+    "Claims Automation",
+    "Fraud Detection",
+    "Vehicle Diagnostics",
+    "InsurTech",
+    "REST APIs"
+  ],
+  "parentOrganization": {
+    "@type": "Organization",
+    "name": "Lemonade",
+    "url": "https://www.lemonade.com/",
+    "description": "Lemonade acquired Metromile in July 2022."
+  }
+}
