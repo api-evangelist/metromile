@@ -48,6 +48,8 @@ apis:
       - type: Website
         url: https://enterprise.metromile.com/
 common:
+  - type: DomainSecurity
+    url: security/metromile-domain-security.yml
   - type: Website
     url: https://www.metromile.com/
   - type: Documentation
