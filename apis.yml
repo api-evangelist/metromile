@@ -36,6 +36,15 @@ tags:
   - Claims Automation
   - Vehicle Diagnostics
   - Mileage Tracking
+  - Insurtech
+tags_raw:
+  - Insurance
+  - Telematics
+  - Pay-Per-Mile
+  - Auto Insurance
+  - Claims Automation
+  - Vehicle Diagnostics
+  - Mileage Tracking
   - InsurTech
 apis:
   - aid: metromile:metromile-enterprise-api
