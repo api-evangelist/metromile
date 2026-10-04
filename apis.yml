@@ -71,6 +71,12 @@ apis:
     tags:
       - Claims Automation
       - Telematics
+      - Fraud Prevention
+      - Insurance
+      - REST API
+    tags_raw:
+      - Claims Automation
+      - Telematics
       - Fraud Detection
       - Insurance
       - REST API
