@@ -66,18 +66,103 @@
 
 Metromile is a pay-per-mile auto insurance platform powered by telematics and data science. Customers attach the Pulse OBD device to their vehicle to track mileage; premiums consist of a base monthly rate plus a per-mile charge, rewarding low-mileage drivers with significant savings. Beyond consumer insurance, Metromile Enterprise offers a cloud-based REST API platform for property and casualty insurers covering touchless claims automation, accident reconstruction (Replay), fraud detection (Detect), digital FNOL reporting (Report), and back-office workflow automation (Streamline). Metromile was acquired by Lemonade in July 2022.
 
-- **Website:** https://www.metromile.com/
-- **Enterprise Platform:** https://enterprise.metromile.com/
-- **Blog:** https://www.metromile.com/blog/
-- **LinkedIn:** https://www.linkedin.com/company/metromile
-- **X:** https://x.com/metromile
-- **GitHub:** https://github.com/metromile
+**Areas:** Insurance · Telematics · Pay-Per-Mile · Auto Insurance · Claims Automation · Vehicle Diagnostics · Mileage Tracking · Insurtech
 
-## APIs.json
+## Metromile on APIs.io
 
-This repository contains an APIs.json 0.19 index for Metromile covering:
+Everything profiled for Metromile is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/metromile/](https://apis.io/providers/metromile/)** — or go straight to one of the APIs or properties below.
 
-- [`apis.yml`](apis.yml) — Provider index
-- [`plans/metromile-plans-pricing.yml`](plans/metromile-plans-pricing.yml) — Pricing and plan details
-- [`rate-limits/metromile-rate-limits.yml`](rate-limits/metromile-rate-limits.yml) — Rate limit documentation
-- [`finops/metromile-finops.yml`](finops/metromile-finops.yml) — Financial operations guidance
+### APIs (1)
+
+- [Metromile Enterprise API](https://apis.io/apis/metromile/metromile-enterprise-api/) — REST API platform for property and casualty insurance carriers enabling touchless claims automation, digital first-notice-of-loss reporting,…
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Security (1)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Metromile Domain Security](https://apis.io/security/metromile/metromile-domain-security/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Metromile Plans Pricing](https://apis.io/plans/metromile/metromile-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Metromile Rate Limits](https://apis.io/rate-limits/metromile/metromile-rate-limits/)
+
+#### FinOps (1)
+
+What the API costs to run, by operation.
+
+- [Metromile Finops](https://apis.io/finops/metromile/metromile-finops/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://www.metromile.com/)
+- [Documentation](https://enterprise.metromile.com/platform/)
+- [Pricing](https://www.metromile.com/auto-insurance/)
+- [Blog](https://www.metromile.com/blog/)
+- [Status](https://status.metromile.com/)
+
+## API Evangelist rating
+
+**Kin Score 11.2** — emerging · rubric 0.24.0 · scored 2026-10-17
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 0.0 |
+| Contract governance | 0.0 |
+| Operational transparency | 13.2 |
+| Developer ergonomics | 7.1 |
+| Access clarity | 15.8 |
+
+**Agent readiness 0.6** — human-only
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | — |
+| Agentic Access | — |
+| Reversibility Documented | — |
+| MCP Server | — |
+| Auth Clarity | — |
+| Idempotency | — |
+| Error Semantics | — |
+| OpenAPI Examples | — |
+| Rate Limit Signal | derived (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | — |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | — |
+| Protected Resource Metadata | — |
+| Dynamic Client Registration | — |
+| Agentic Commerce | — |
+
+**Regulatory alignment 5.3** — Insurance
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/metromile/](https://apis.io/providers/metromile/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for Metromile: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/metromile/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
